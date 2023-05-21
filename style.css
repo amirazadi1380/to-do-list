@@ -1,0 +1,47 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Sigmar&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background: rgb(70, 8, 56);
+   font-family: 'Gloock', serif;
+   font-family: 'Sigmar', cursive;
+   color: rgb(61, 59, 59);
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   user-select: none;
+}
+.do-container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(219, 121, 138);
+    border-radius: 20px;
+    box-shadow: 5px 5px 17px black;
+    align-items: center;
+}
+#input{
+    width:250px;
+    height: 35px;
+    background-color:rgb(70, 8, 56) ;
+   border: none;
+    box-shadow: 1px 1px 5px black;
+    color: pink;
+}
+#submit{
+    padding: 12px;
+    background-color: rgb(70, 8, 56);
+    color: pink;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px black;
+}
+.works{
+    margin-top: 35px;
+    cursor: pointer;
+}
